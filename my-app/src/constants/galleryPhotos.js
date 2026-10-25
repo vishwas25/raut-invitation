@@ -1,49 +1,39 @@
-// ── Gallery images ────────────────────────────────
-// Static imports so Vite bundles each image as a hashed asset.
-// The browser downloads all images on first page load and caches them,
-// meaning zero extra network requests on hover or lightbox open.
-import feets from "../assets/gallery/feets.jpeg";
-import holdingHands from "../assets/gallery/holding hands.jpeg";
-import hug from "../assets/gallery/hug.jpeg";
-import playful from "../assets/gallery/playful.jpeg";
-import trust from "../assets/gallery/trust.jpeg";
-import walkingHoldingHands from "../assets/gallery/walking holding hands.jpeg";
-
+// Temporary stock images keep the gallery layout usable until family photos are added.
 export const GALLERY_PHOTOS = [
     {
         id: 1,
-        src: feets,
-        alt: "Feet together",
-        caption: "Where our journey begins — one step at a time",
+        src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=85",
+        alt: "Draft placeholder wedding photo",
+        caption: "Draft placeholder — replace with a First Glimpse photo",
     },
     {
         id: 2,
-        src: holdingHands,
-        alt: "Holding hands",
-        caption: "In each other's hand we found our forever",
+        src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=85",
+        alt: "Draft placeholder wedding photo",
+        caption: "Draft placeholder — replace with a family photo",
     },
     {
         id: 3,
-        src: hug,
-        alt: "A warm hug",
-        caption: "Safe place",
+        src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=900&q=85",
+        alt: "Draft placeholder wedding photo",
+        caption: "Draft placeholder — replace with an engagement photo",
     },
     {
         id: 4,
-        src: playful,
-        alt: "Playful moment",
-        caption: "A love that laughs together, lasts forever",
+        src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=900&q=85",
+        alt: "Draft placeholder wedding photo",
+        caption: "Draft placeholder — replace with a Haldi photo",
     },
     {
         id: 5,
-        src: trust,
-        alt: "A moment of trust",
-        caption: "Falling for each other, every single day",
+        src: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=900&q=85",
+        alt: "Draft placeholder wedding photo",
+        caption: "Draft placeholder — replace with a wedding photo",
     },
     {
         id: 6,
-        src: walkingHoldingHands,
-        alt: "Walking hand in hand",
-        caption: "Same path, same heartbeat",
+        src: "https://images.unsplash.com/photo-1529636798458-92182e662485?w=900&q=85",
+        alt: "Draft placeholder wedding photo",
+        caption: "Draft placeholder — replace with a celebration photo",
     },
 ];

@@ -13,7 +13,7 @@ export default function StorySection() {
                 <div className="timeline">
                     {TIMELINE.map((item, i) => (
                         <motion.div
-                            key={item.year}
+                            key={item.title}
                             className={`timeline-item ${i % 2 === 0 ? "left" : "right"}`}
                             initial={{ opacity: 0, x: i % 2 === 0 ? -60 : 60 }}
                             whileInView={{ opacity: 1, x: 0 }}

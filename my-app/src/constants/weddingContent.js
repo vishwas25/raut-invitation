@@ -4,23 +4,23 @@
 ═══════════════════════════════════════════════ */
 
 // ── Couple ──────────────────────────────────────
-export const BRIDE_NAME = "Vanshika";
-export const GROOM_NAME = "Harshal";
-export const COUPLE_HASHTAG = "#Harshika";
+export const BRIDE_NAME = "Vaishnavi";
+export const GROOM_NAME = "Yash";
+export const COUPLE_HASHTAG = "#YashWedsVaishnavi";
 
 // ── Date & Venue ────────────────────────────────
-export const WEDDING_DATE_ISO = "2026-03-30T19:10:00";
-export const WEDDING_DAY_LABEL = "Monday";
-export const WEDDING_DATE_DAY = "30";
-export const WEDDING_DATE_MONTH_YEAR = "March · 2026";
-export const WEDDING_DATE_LONG = "March 30, 2026";
+export const WEDDING_DATE_ISO = "2026-11-20T10:45:00";
+export const WEDDING_DAY_LABEL = "Friday";
+export const WEDDING_DATE_DAY = "20";
+export const WEDDING_DATE_MONTH_YEAR = "November · 2026";
+export const WEDDING_DATE_LONG = "November 20, 2026";
 
 // ── Hero ─────────────────────────────────────────
 export const HERO_BG_URL =
     "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=85";
 export const HERO_PRELUDE = "Together with their families";
 export const HERO_INVITE_LINE =
-    "request the honour of your presence at their wedding";
+    "invite you to celebrate their wedding";
 
 // ── Envelope screen ──────────────────────────────
 export const ENVELOPE_EMOJI = "💌";
@@ -29,8 +29,8 @@ export const ENVELOPE_HINT = "✦ Tap to open your invitation ✦";
 // ── Post-wedding celebration ─────────────────────
 export const CELEBRATING_TITLE = "We're Married! 🎉";
 export const CELEBRATING_SUB = "thank you for being part of our journey";
-export const COUNTUP_INTRO = "We've been together for";
-export const COUNTUP_FOOTER = "and counting… 💕";
+export const COUNTUP_INTRO = "Since their wedding day";
+export const COUNTUP_FOOTER = "Vaishnavi & Yash";
 
 // ── Section titles & subtitles ───────────────────
 export const SECTIONS = {
@@ -39,8 +39,8 @@ export const SECTIONS = {
         sub: "every second brings us closer",
     },
     story: {
-        title: "Our Story",
-        sub: "how two became one",
+        title: "Wedding Celebrations",
+        sub: "celebrating Vaishnavi & Yash",
     },
     video: {
         title: "Our Pre-Wedding Film",
@@ -59,74 +59,58 @@ export const SECTIONS = {
 // ── Our Story timeline ───────────────────────────
 export const TIMELINE = [
     {
-        year: "9 Nov 2025",
+        year: "Date to be added",
         icon: "👀",
         title: "First Glimpse",
-        desc: "Across a crowded room, their eyes met for the very first time — and the universe quietly conspired to bring them together.",
+        desc: "Draft placeholder: Add when and where they first met, and their first impressions.",
     },
     {
-        year: "16 Nov 2025",
+        year: "Date to be added",
         icon: "🤝",
         title: "The Decision",
-        desc: "Families gathered, hearts aligned, and a beautiful bond was sealed. It was decided — these two souls were meant to journey together.",
+        desc: "Draft placeholder: Add how the families agreed to the match.",
     },
     {
-        year: "21 Nov 2025",
+        year: "Date to be added",
         icon: "💍",
         title: "The Engagement",
-        desc: "Amidst love, laughter, and the warm glow of celebration, they exchanged rings and promised each other a lifetime of togetherness.",
+        desc: "Draft placeholder: Add the engagement date and a short memory from the day.",
     },
     {
-        year: "30 Mar 2026",
+        year: "20 Nov 2026",
         icon: "🛕",
         title: "Forever Begins",
-        desc: "Under sacred blessings and the joy of loved ones, two hearts unite as one. Today, their most beautiful chapter begins.",
+        desc: "Friday, 20 November 2026 at Vankhede Celebration Lawn & Hall, Kalamna, Umred Road, Nagpur. Muhurta: 10.75 AM as printed on the patrika.",
     },
 ];
 
 // ── Event detail cards ───────────────────────────
-export const DETAIL_QR_LABEL = "Scan or tap for directions";
-export const DETAIL_MAP_TITLE = "Open location in Maps";
-
 export const DETAIL_CARDS = [
     {
         icon: "💛",
-        title: "Haldi Ceremony",
+        title: "Mandap Pujan & Haldi",
         lines: [
-            "Sunday, 29 March 2026",
-            "7:00 PM Onwards",
-            "Shivaji Nagar, Near ITI College",
-            "Khed Road, Bramhapuri",
-            "Chandrapur, Maharashtra",
+            "Wednesday, 18 November 2026",
+            "6:00 PM onwards",
+            "At Raut Family Home",
+            "Sharda Colony, Bramhapuri",
+            "Maharashtra",
         ],
-        mapUrl: "https://maps.app.goo.gl/KS1frP6PjPanmM5a6",
-        qrKey: "reception",
+        qrKey: "haldi",
+        mapUrl: "https://maps.app.goo.gl/yjd5HPLcWHV4HKbKA",
     },
     {
         icon: "🛕",
         title: "Wedding Ceremony",
         lines: [
-            "Monday, 30 March 2026",
-            "7:10 PM",
-            "The Raj Royale Lawns & Banquets",
-            "Kamptee Road, Besides Indian Oil",
-            "Petrol Pump, Nagpur, Maharashtra",
+            "Friday, 20 November 2026",
+            "Muhurta: 10.75 AM (as printed)",
+            "Vankhede Celebration Lawn & Hall",
+            "Kalamna, Umred Road",
+            "Nagpur - 441204, Maharashtra",
         ],
-        mapUrl: "https://maps.app.goo.gl/BAfsX3VDAPoi4fAe9",
-        qrKey: "wedding",
-    },
-    {
-        icon: "🥂",
-        title: "Reception",
-        lines: [
-            "Tuesday, 31 March 2026",
-            "7:00 PM Onwards",
-            "Shivaji Nagar, Near ITI College",
-            "Khed Road, Bramhapuri",
-            "Chandrapur, Maharashtra",
-        ],
-        mapUrl: "https://maps.app.goo.gl/KS1frP6PjPanmM5a6",
-        qrKey: "reception",
+        qrKey: "marriage",
+        mapUrl: "https://maps.app.goo.gl/a4wZC6rJLtY6jrS28",
     },
 ];
 

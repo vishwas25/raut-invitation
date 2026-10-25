@@ -1,16 +1,11 @@
 import { motion } from "framer-motion";
 import AnimatedSection from "../AnimatedSection";
 import SectionTitle from "../ui/SectionTitle";
-import {
-    SECTIONS,
-    DETAIL_CARDS,
-    DETAIL_QR_LABEL,
-    DETAIL_MAP_TITLE,
-} from "../../constants/weddingContent";
-import weddingQR from "../../assets/Marriage-1024.jpeg";
-import receptionQR from "../../assets/Reception-1024.jpeg";
+import { SECTIONS, DETAIL_CARDS } from "../../constants/weddingContent";
+import haldiQR from "../../assets/Haldi-1024.png";
+import marriageQR from "../../assets/Marriage-1024.png";
 
-const QR_IMAGES = { wedding: weddingQR, reception: receptionQR };
+const QR_IMAGES = { haldi: haldiQR, marriage: marriageQR };
 
 export default function DetailsSection() {
     return (
@@ -52,16 +47,16 @@ export default function DetailsSection() {
                                 href={card.mapUrl}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="detail-card-qr-link"
-                                title={DETAIL_MAP_TITLE}
+                                className="detail-card-qr-block"
+                                aria-label={`Open directions to ${card.title} in Google Maps`}
                             >
                                 <img
                                     src={QR_IMAGES[card.qrKey]}
-                                    alt={`${card.title} location QR code`}
+                                    alt={`Scan for directions to ${card.title}`}
                                     className="detail-card-qr"
                                 />
                                 <span className="detail-card-qr-label">
-                                    {DETAIL_QR_LABEL}
+                                    Scan or tap for directions
                                 </span>
                             </a>
                         </motion.div>
