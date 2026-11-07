@@ -1,39 +1,45 @@
-// Temporary stock images keep the gallery layout usable until family photos are added.
+import ganpatiPuja from "../assets/gallery/ganpati-puja.JPEG";
+import walkingInGarden from "../assets/gallery/walking-in-garden.JPEG";
+import standingClose from "../assets/gallery/standing-close-looking-at-each-other.JPEG";
+import holdingHandsWalking from "../assets/gallery/holding-hands-walking.JPEG";
+import holdingHandsClimbing from "../assets/gallery/holding-hands-climbing.JPEG";
+import blackNWhite from "../assets/gallery/black-n-white.JPEG";
+
 export const GALLERY_PHOTOS = [
     {
         id: 1,
-        src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=85",
-        alt: "Draft placeholder wedding photo",
-        caption: "Draft placeholder — replace with a First Glimpse photo",
+        src: ganpatiPuja,
+        alt: "Yash and Vaishnavi standing together before a white marble Ganpati idol at the home mandir",
+        caption: "Seeking Bappa's blessings for our new beginning",
     },
     {
         id: 2,
-        src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=900&q=85",
-        alt: "Draft placeholder wedding photo",
-        caption: "Draft placeholder — replace with a family photo",
+        src: walkingInGarden,
+        alt: "Yash and Vaishnavi walking side by side along a leafy garden path, Vaishnavi in a green saree",
+        caption: "Every path is beautiful when we walk it together",
     },
     {
         id: 3,
-        src: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=900&q=85",
-        alt: "Draft placeholder wedding photo",
-        caption: "Draft placeholder — replace with an engagement photo",
+        src: standingClose,
+        alt: "Vaishnavi resting her head on Yash's shoulder on a white balcony surrounded by trees",
+        caption: "Where I belong — right beside you",
     },
     {
         id: 4,
-        src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=900&q=85",
-        alt: "Draft placeholder wedding photo",
-        caption: "Draft placeholder — replace with a Haldi photo",
+        src: holdingHandsWalking,
+        alt: "Yash and Vaishnavi smiling and holding hands as they walk across a sunlit meadow",
+        caption: "Hand in hand, through every season",
     },
     {
         id: 5,
-        src: "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?w=900&q=85",
-        alt: "Draft placeholder wedding photo",
-        caption: "Draft placeholder — replace with a wedding photo",
+        src: holdingHandsClimbing,
+        alt: "Yash holding Vaishnavi's hand to help her across the rocks by a forest stream",
+        caption: "I'll always hold your hand over the rough patches",
     },
     {
         id: 6,
-        src: "https://images.unsplash.com/photo-1529636798458-92182e662485?w=900&q=85",
-        alt: "Draft placeholder wedding photo",
-        caption: "Draft placeholder — replace with a celebration photo",
+        src: blackNWhite,
+        alt: "Black and white portrait of Yash standing behind Vaishnavi, both with eyes softly lowered",
+        caption: "Forever in black and white, and every colour in between",
     },
 ];

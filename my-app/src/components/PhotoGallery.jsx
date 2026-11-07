@@ -25,8 +25,8 @@ export default function PhotoGallery() {
                         alt={photo.alt}
                         loading="lazy"
                         decoding="async"
-                        width={600}
-                        height={400}
+                        width={480}
+                        height={600}
                         style={{ contentVisibility: "auto" }}
                     />
                     <div className="gallery-caption">{photo.caption}</div>

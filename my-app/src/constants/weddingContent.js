@@ -59,28 +59,22 @@ export const SECTIONS = {
 // ── Our Story timeline ───────────────────────────
 export const TIMELINE = [
     {
-        year: "Date to be added",
-        icon: "👀",
-        title: "First Glimpse",
-        desc: "Draft placeholder: Add when and where they first met, and their first impressions.",
-    },
-    {
-        year: "Date to be added",
+        year: "9 Nov 2025",
         icon: "🤝",
         title: "The Decision",
-        desc: "Draft placeholder: Add how the families agreed to the match.",
+        desc: "Families gathered, hearts aligned, and a beautiful bond was sealed. It was decided — these two souls were meant to journey together.",
     },
     {
-        year: "Date to be added",
+        year: "27 Feb 2026",
         icon: "💍",
         title: "The Engagement",
-        desc: "Draft placeholder: Add the engagement date and a short memory from the day.",
+        desc: "Amidst love, laughter, and the warm glow of celebration, they exchanged rings and promised each other a lifetime of togetherness.",
     },
     {
         year: "20 Nov 2026",
         icon: "🛕",
         title: "Forever Begins",
-        desc: "Friday, 20 November 2026 at Vankhede Celebration Lawn & Hall, Kalamna, Umred Road, Nagpur. Muhurta: 10.75 AM as printed on the patrika.",
+        desc: "Under sacred blessings and the joy of loved ones, two hearts unite as one. Today, their most beautiful chapter begins.",
     },
 ];
 
