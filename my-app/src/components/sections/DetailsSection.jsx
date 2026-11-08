@@ -4,8 +4,9 @@ import SectionTitle from "../ui/SectionTitle";
 import { SECTIONS, DETAIL_CARDS } from "../../constants/weddingContent";
 import haldiQR from "../../assets/Haldi-1024.png";
 import marriageQR from "../../assets/Marriage-1024.png";
+import receptionQR from "../../assets/Reception-1024.png";
 
-const QR_IMAGES = { haldi: haldiQR, marriage: marriageQR };
+const QR_IMAGES = { haldi: haldiQR, marriage: marriageQR, reception: receptionQR };
 
 export default function DetailsSection() {
     return (

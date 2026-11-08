@@ -98,13 +98,26 @@ export const DETAIL_CARDS = [
         title: "Wedding Ceremony",
         lines: [
             "Friday, 20 November 2026",
-            "Muhurta: 10.75 AM (as printed)",
+            "Muhurta: 10.75 AM",
             "Vankhede Celebration Lawn & Hall",
             "Kalamna, Umred Road",
             "Nagpur - 441204, Maharashtra",
         ],
         qrKey: "marriage",
         mapUrl: "https://maps.app.goo.gl/a4wZC6rJLtY6jrS28",
+    },
+    {
+        icon: "🎉",
+        title: "Reception",
+        lines: [
+            "Saturday, 21 November 2026",
+            "7:00 PM onwards",
+            "Vrundavan Resorts",
+            "Akathwada Road, Karanja Lad",
+            "Dist. Washim, Maharashtra",
+        ],
+        qrKey: "reception",
+        mapUrl: "https://maps.app.goo.gl/canaScDUKAYt9T5u7",
     },
 ];
 
